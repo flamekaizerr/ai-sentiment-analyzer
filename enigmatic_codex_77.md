@@ -1,0 +1,1 @@
+[Content of the original file: PROJECT_MASTER_GUIDE.md]
