@@ -161,7 +161,7 @@ export default function App() {
           {' · '}
           <a href="https://react.dev" target="_blank" rel="noreferrer">React</a>
           {' · '}
-          Khalid's Portfolio Project
+          My Portfolio Project
         </p>
       </footer>
     </div>
