@@ -9,6 +9,8 @@ pinned: false
 
 # AI Sentiment Analyzer
 
+🔴 **Live Demo:** [ai-sentiment-analyzer-tau.vercel.app](https://ai-sentiment-analyzer-tau.vercel.app/)
+
 > A full-stack, real-time AI text analysis application powered by **HuggingFace Transformers**.
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111-green?logo=fastapi)](https://fastapi.tiangolo.com)
