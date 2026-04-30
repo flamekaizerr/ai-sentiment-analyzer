@@ -1,3 +1,12 @@
+---
+title: AI Sentiment Analyzer
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+---
+
 # AI Sentiment Analyzer
 
 > A full-stack, real-time AI text analysis application powered by **HuggingFace Transformers**.
