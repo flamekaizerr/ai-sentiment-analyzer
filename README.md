@@ -11,7 +11,7 @@ pinned: false
 
 🔴 **Live Demo:** [ai-sentiment-analyzer-tau.vercel.app](https://ai-sentiment-analyzer-tau.vercel.app/)
 
-> A full-stack, real-time AI text analysis application powered by **HuggingFace Transformers**.
+> A full-stack, real-time sentiment analysis application powered by **HuggingFace Transformers**.
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.111-green?logo=fastapi)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev)
@@ -19,22 +19,12 @@ pinned: false
 
 ## 🚀 Features
 
-- **Sentiment Analysis** — Positive / Negative / Neutral classification via RoBERTa.
-- **Emotion Detection** — Multi-label emotion detection covering 7 emotions (joy, sadness, anger, fear, surprise, disgust, neutral).
-- **Named Entity Recognition (NER)** — In-line highlighting of Persons, Organizations, Locations, and Misc entities.
-- **Persistent History** — All analyses are stored in a local SQLite database for future reference.
-- **Analytics Dashboard** — Interactive Doughnut charts showing sentiment & emotion distributions over time.
-- **Modern UI** — A beautiful, responsive, dark glassmorphism interface.
-
-## 🧠 ML Models Used
-
-This project utilizes state-of-the-art NLP models loaded locally via HuggingFace's `transformers` library:
-
-| Task | Model | Parameters |
-|---|---|---|
-| **Sentiment Analysis** | `cardiffnlp/twitter-roberta-base-sentiment-latest` | 125M |
-| **Emotion Detection** | `j-hartmann/emotion-english-distilroberta-base` | 82M |
-| **NER** | `dslim/bert-base-NER` | 110M |
+- **Sentiment Analysis**: Positive, Negative, or Neutral classification using RoBERTa.
+- **Emotion Detection**: Multi-label emotion detection covering 7 emotions (joy, sadness, anger, fear, surprise, disgust, neutral).
+- **Named Entity Recognition (NER)**: In-line highlighting of Persons, Organizations, Locations, and Misc entities.
+- **Persistent History**: All analyses are stored in a local SQLite database for future reference.
+- **Analytics Dashboard**: Interactive Doughnut charts showing sentiment and emotion distributions over time.
+- **Modern UI**: A responsive, dark glassmorphism interface.
 
 ## 🏗️ Architecture
 
