@@ -1,12 +1,3 @@
----
-title: AI Sentiment Analyzer
-emoji: 🚀
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-pinned: false
----
-
 # AI Sentiment Analyzer
 
 🔴 **Live Demo:** [ai-sentiment-analyzer-tau.vercel.app](https://ai-sentiment-analyzer-tau.vercel.app/)
