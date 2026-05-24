@@ -118,10 +118,8 @@ body::before {
   font-size: clamp(32px, 6vw, 56px);
   font-weight: 800;
   line-height: 1.1;
-  background: linear-gradient(135deg, #fff 30%, rgba(139, 92, 246, 0.9) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #f8fafc;
+  text-shadow: 0 8px 24px rgba(139, 92, 246, 0.22);
   margin-bottom: 16px;
 }
 
