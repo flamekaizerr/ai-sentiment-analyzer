@@ -75,7 +75,7 @@ export default function App() {
           Powered by HuggingFace Transformers
         </div>
         <h1>AI Sentiment Analyzer</h1>
-        <p>Real-time text analysis with state-of-the-art NLP models — sentiment, emotion & named entity recognition</p>
+        <p>Real-time text analysis with state-of-the-art NLP models - sentiment, emotion & named entity recognition</p>
         <div className="model-pills">
           <span className="model-pill">cardiffnlp/twitter-roberta-base-sentiment</span>
           <span className="model-pill">j-hartmann/emotion-english-distilroberta</span>

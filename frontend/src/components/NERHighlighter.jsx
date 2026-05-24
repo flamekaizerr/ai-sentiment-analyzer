@@ -48,7 +48,7 @@ export default function NERHighlighter({ result }) {
                   key={i}
                   className="ner-entity"
                   data-type={seg.type}
-                  title={`${TYPE_LABELS[seg.type] || seg.type} — ${(seg.score * 100).toFixed(0)}% confidence`}
+                  title={`${TYPE_LABELS[seg.type] || seg.type} - ${(seg.score * 100).toFixed(0)}% confidence`}
                 >
                   {seg.text}
                 </span>

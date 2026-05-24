@@ -19,7 +19,7 @@ export default function TextInput({ text, setText, onAnalyze, isLoading }) {
         <textarea
           id="main-text-input"
           className="main-textarea"
-          placeholder="Type or paste any text here — a tweet, review, news headline, or paragraph..."
+          placeholder="Type or paste any text here - a tweet, review, news headline, or paragraph..."
           value={text}
           onChange={(e) => setText(e.target.value)}
           rows={5}
